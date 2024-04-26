@@ -1,0 +1,36 @@
+a{
+    color: red;
+}
+nav h2{
+    color: aqua;
+    background-color: blueviolet;
+}
+div + p{
+    color: red;
+}
+a[href]{
+    text-decoration: none;
+    color: red;
+}
+a[class="active"]{
+    color: green;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: yellowgreen;
+}
+p:last-of-type::after{
+    content: "...";
+}
+
+
+ul li:before{
+    
+    color:white;
+}
+p:nth-child(2n)::first-letter {
+    color: red;
+    font-size: 30px;
+
+}
+
